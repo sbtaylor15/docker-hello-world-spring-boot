@@ -7,7 +7,6 @@ Name = "GLOBAL.SpringDemo.helloworld.ms-sb-helloworld"
 Variant = "${GIT_BRANCH}"
 Version = "v1.0.0.${BUILD_NUM}-g${SHORT_SHA}"
 
-
 # Key/Values to associate to the Component Version
 [Attributes]
     DockerBuildDate = "${BLDDATE}"
