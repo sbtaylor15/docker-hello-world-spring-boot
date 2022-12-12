@@ -1,0 +1,19 @@
+# Application Name and Version
+Application = "GLOBAL.SpringDemo.helloworld.HelloWorldApp"
+Application_Version = "1.0.0" 
+
+# Define Component Name, Variant and Version
+Name = "GLOBAL.SpringDemo.helloworld.ms-sb-helloworld"
+Variant = "${GIT_BRANCH}"
+Version = "v1.0.0.${BUILD_NUM}-g${SHORT_SHA}"
+
+
+# Key/Values to associate to the Component Version
+[Attributes]
+    DockerBuildDate = "${BLDDATE}"
+    DockerRepo = "${DOCKERREPO}"
+    DockerSha = "${DIGEST}"
+    DockerTag = "${IMAGE_TAG}"
+    DiscordChannel = "https://discord.gg/wM4b5yEFzS"
+    ServiceOwner= "${DHUSER}"
+    ServiceOwnerEmail = "stella@DeployHub.io"
